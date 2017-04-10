@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0805EF6B67B8A83C09AB5B62 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EA33CCE59D1CBEC81E37540 /* pugixml.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		036CE3A78661FEBC42A2D309 /* ImathRoots.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathRoots.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathRoots.h; sourceTree = SOURCE_ROOT; };
+		0374559D3A4BC810DD73BDA3 /* errorhandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = errorhandler.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/errorhandler.h; sourceTree = SOURCE_ROOT; };
+		0420807C9513488A323C5537 /* halfExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = halfExport.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/halfExport.h; sourceTree = SOURCE_ROOT; };
+		054877E1F860309522D5322B /* ImathMatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathMatrix.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathMatrix.h; sourceTree = SOURCE_ROOT; };
+		061F6897FBE1DE34BBC76DFF /* IexMathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexMathExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexMathExc.h; sourceTree = SOURCE_ROOT; };
+		0662A29FCD3B104684733129 /* ImathFun.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathFun.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathFun.h; sourceTree = SOURCE_ROOT; };
+		0EE71B93576C5D130802F095 /* platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = platform.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/platform.h; sourceTree = SOURCE_ROOT; };
+		0F3C935C9046059824C20150 /* fmath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fmath.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/fmath.h; sourceTree = SOURCE_ROOT; };
+		1171ECB0B91D504FD56D487E /* filesystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filesystem.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/filesystem.h; sourceTree = SOURCE_ROOT; };
+		118228CA13019142DD32A428 /* IexMathFpu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexMathFpu.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexMathFpu.h; sourceTree = SOURCE_ROOT; };
+		1EB71AA6B4BC51B01004C40E /* unittest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unittest.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/unittest.h; sourceTree = SOURCE_ROOT; };
+		218BEDCF3AC9575D73433527 /* ImathFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathFrame.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathFrame.h; sourceTree = SOURCE_ROOT; };
+		2190FEEF339D05CC803D4A27 /* ImathBoxAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathBoxAlgo.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathBoxAlgo.h; sourceTree = SOURCE_ROOT; };
+		23493A288C69FEC16B899B54 /* unordered_map_concurrent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_map_concurrent.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/unordered_map_concurrent.h; sourceTree = SOURCE_ROOT; };
+		248CE6E7E74D97B711B258F9 /* ImathMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathMath.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathMath.h; sourceTree = SOURCE_ROOT; };
+		2588208CB4E62A5A29500970 /* ImathPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathPlatform.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathPlatform.h; sourceTree = SOURCE_ROOT; };
+		2591E575E01F95579F85184B /* varyingref.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = varyingref.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/varyingref.h; sourceTree = SOURCE_ROOT; };
+		283D656A3C66975097B0B31B /* paramlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = paramlist.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/paramlist.h; sourceTree = SOURCE_ROOT; };
+		287AE6DE528A00BBB3A59B1C /* hash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = hash.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/hash.h; sourceTree = SOURCE_ROOT; };
+		28B5BE0879447CF2C791C021 /* version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/version.h; sourceTree = SOURCE_ROOT; };
+		28D9FA12CF52AD2E5EA12F64 /* ImathGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathGL.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathGL.h; sourceTree = SOURCE_ROOT; };
+		29A1308EE933A059E42A156D /* IexNamespace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexNamespace.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexNamespace.h; sourceTree = SOURCE_ROOT; };
+		2D80D3B47FC31931BD25F638 /* ImathVec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathVec.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathVec.h; sourceTree = SOURCE_ROOT; };
+		2EE5D05B706330E66EED0221 /* ImathLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathLimits.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathLimits.h; sourceTree = SOURCE_ROOT; };
+		31133F00622886A93EEA6042 /* ImathFrustum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathFrustum.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathFrustum.h; sourceTree = SOURCE_ROOT; };
+		320C55B891DF086F0F53D867 /* timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = timer.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/timer.h; sourceTree = SOURCE_ROOT; };
+		349652711A4BE4AEE118F5C5 /* IlmThreadExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThreadExport.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThreadExport.h; sourceTree = SOURCE_ROOT; };
+		37C7F8D2FAB632A7733F2840 /* ImathRandom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathRandom.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathRandom.h; sourceTree = SOURCE_ROOT; };
+		3C973E5DE4B636C40259C297 /* IlmThreadNamespace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThreadNamespace.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThreadNamespace.h; sourceTree = SOURCE_ROOT; };
+		3CA7CD62C19DEB84447B430D /* argparse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = argparse.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/argparse.h; sourceTree = SOURCE_ROOT; };
+		42F0954F9FD2F8AD0751E32E /* imagebufalgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imagebufalgo.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/imagebufalgo.h; sourceTree = SOURCE_ROOT; };
+		45C0295136F87D8F3CDAD81F /* simd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = simd.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/simd.h; sourceTree = SOURCE_ROOT; };
+		4C6A30696E5579314150F540 /* ImathNamespace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathNamespace.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathNamespace.h; sourceTree = SOURCE_ROOT; };
+		4C82326E6812D540D83C7470 /* tinyformat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyformat.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/tinyformat.h; sourceTree = SOURCE_ROOT; };
+		4D03A70B5C0B4FC69E085BEC /* ImathColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathColor.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathColor.h; sourceTree = SOURCE_ROOT; };
+		4D77385CE3B4575BACF6300B /* typedesc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = typedesc.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/typedesc.h; sourceTree = SOURCE_ROOT; };
+		4EA12BEB1EF76FA8D8CCC65E /* string_view.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = string_view.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/string_view.h; sourceTree = SOURCE_ROOT; };
+		4F5AAA9F785B160CC1538D40 /* array_view.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = array_view.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/array_view.h; sourceTree = SOURCE_ROOT; };
+		4FC0D782631398732C191804 /* ImathInterval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathInterval.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathInterval.h; sourceTree = SOURCE_ROOT; };
+		51EB04285DAD485AEDA9E922 /* imagecache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imagecache.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/imagecache.h; sourceTree = SOURCE_ROOT; };
+		525E27B05424A0FF805CB6BD /* strided_ptr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = strided_ptr.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/strided_ptr.h; sourceTree = SOURCE_ROOT; };
+		57A35F63A434F427E625093A /* IexMathIeeeExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexMathIeeeExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexMathIeeeExc.h; sourceTree = SOURCE_ROOT; };
+		58772002920164E637A2D42F /* coordinate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = coordinate.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/coordinate.h; sourceTree = SOURCE_ROOT; };
+		58F4F8388F176A1473D1515D /* IlmBaseConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmBaseConfig.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmBaseConfig.h; sourceTree = SOURCE_ROOT; };
+		5BD9BD62513854F0953A5EA3 /* imagebufalgo_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imagebufalgo_util.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/imagebufalgo_util.h; sourceTree = SOURCE_ROOT; };
+		5E125D2C25B66DD197BC2B22 /* IlmThreadPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThreadPool.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThreadPool.h; sourceTree = SOURCE_ROOT; };
+		5E14AD9979E6033F72D1EA08 /* ImathColorAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathColorAlgo.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathColorAlgo.h; sourceTree = SOURCE_ROOT; };
+		5FFCC7A26A63A7E2B5F71004 /* halfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = halfLimits.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/halfLimits.h; sourceTree = SOURCE_ROOT; };
+		604791547D356B1BBF017C84 /* SHA1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SHA1.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/SHA1.h; sourceTree = SOURCE_ROOT; };
+		6078E10830C189725D999F38 /* IexThrowErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexThrowErrnoExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexThrowErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		61B665541A1B86FECEF94E11 /* IexBaseExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexBaseExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexBaseExc.h; sourceTree = SOURCE_ROOT; };
+		66838FF03F5663992D08F233 /* IlmThreadForward.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThreadForward.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThreadForward.h; sourceTree = SOURCE_ROOT; };
+		66C1F13944754FC2581FFE4C /* texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = texture.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/texture.h; sourceTree = SOURCE_ROOT; };
+		6BBBD9ADEA57D2590362998F /* imageio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imageio.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/imageio.h; sourceTree = SOURCE_ROOT; };
+		6C56606EC5E58D3849ACAA43 /* ImathInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathInt64.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathInt64.h; sourceTree = SOURCE_ROOT; };
+		6E39D673183867301FC0A391 /* pugixml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pugixml.hpp; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/pugixml.hpp; sourceTree = SOURCE_ROOT; };
+		6EA33CCE59D1CBEC81E37540 /* pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pugixml.cpp; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+		6EB72541BD27AC52385E987B /* filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filter.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/filter.h; sourceTree = SOURCE_ROOT; };
+		6EDC17201C2FA0ECF5F8980E /* ImathEuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathEuler.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathEuler.h; sourceTree = SOURCE_ROOT; };
+		6F67892FEA2886311C71E126 /* imagebuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imagebuf.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/imagebuf.h; sourceTree = SOURCE_ROOT; };
+		71EFE1BE0C99C224F02CCA74 /* ImathLine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathLine.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathLine.h; sourceTree = SOURCE_ROOT; };
+		72DC2FA8AF0D9D82D6F14D8F /* fstream_mingw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fstream_mingw.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/fstream_mingw.h; sourceTree = SOURCE_ROOT; };
+		746F14167E275A6768CC8493 /* plugin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = plugin.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/plugin.h; sourceTree = SOURCE_ROOT; };
+		7A94BBC1822F68862761E2EF /* IlmThreadSemaphore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThreadSemaphore.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThreadSemaphore.h; sourceTree = SOURCE_ROOT; };
+		7B625F27BE2F5713C74EA7A7 /* ImathSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathSphere.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathSphere.h; sourceTree = SOURCE_ROOT; };
+		81597199078F18DE53782783 /* thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = thread.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/thread.h; sourceTree = SOURCE_ROOT; };
+		824CD93619A2326BC62848B4 /* osdep.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = osdep.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/osdep.h; sourceTree = SOURCE_ROOT; };
+		8481D20C5C9D4AA42A83A8B0 /* half.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = half.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/half.h; sourceTree = SOURCE_ROOT; };
+		8998CD460B54EBF8F76FC541 /* IexMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexMacros.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexMacros.h; sourceTree = SOURCE_ROOT; };
+		8CF8D87D0A62DDEDC038980D /* dassert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dassert.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/dassert.h; sourceTree = SOURCE_ROOT; };
+		8DB11BAB7EB5276BAD22B660 /* pugiconfig.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pugiconfig.hpp; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/pugiconfig.hpp; sourceTree = SOURCE_ROOT; };
+		8E2C0A9499F47AEA08204208 /* IexErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexErrnoExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		9050AF0A4A70231D9ABA75A2 /* ImathGLU.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathGLU.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathGLU.h; sourceTree = SOURCE_ROOT; };
+		91118EF249452BB3724A91AB /* ImathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathExc.h; sourceTree = SOURCE_ROOT; };
+		986C3C8543F9A8F944B874D8 /* atomic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = atomic.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/atomic.h; sourceTree = SOURCE_ROOT; };
+		9A2D068669D44B6D4ED8F71E /* ImathLineAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathLineAlgo.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathLineAlgo.h; sourceTree = SOURCE_ROOT; };
+		9DB9729C27D17BB609459DC7 /* Iex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Iex.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/Iex.h; sourceTree = SOURCE_ROOT; };
+		9DD06488A38D434205840876 /* ImathExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathExport.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathExport.h; sourceTree = SOURCE_ROOT; };
+		9EC9D645BEA042F384C7BC7A /* image_view.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = image_view.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/image_view.h; sourceTree = SOURCE_ROOT; };
+		A0355C6A752AF987B1690275 /* ImathForward.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathForward.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathForward.h; sourceTree = SOURCE_ROOT; };
+		A789EBA540E1DAC354BFC760 /* strutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = strutil.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/strutil.h; sourceTree = SOURCE_ROOT; };
+		AB7A1E9ED3392235424CB739 /* halfFunction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = halfFunction.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/halfFunction.h; sourceTree = SOURCE_ROOT; };
+		B31C32F3D0EC300F164D95DD /* ImathShear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathShear.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathShear.h; sourceTree = SOURCE_ROOT; };
+		B66690C2420954E402174473 /* refcnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = refcnt.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/refcnt.h; sourceTree = SOURCE_ROOT; };
+		BC2EBBF7626F9C935E56B60F /* oiioversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = oiioversion.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/oiioversion.h; sourceTree = SOURCE_ROOT; };
+		BD045DAB60CB81EC442984AB /* ImathVecAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathVecAlgo.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathVecAlgo.h; sourceTree = SOURCE_ROOT; };
+		C8A69B2B5D5F267171D80F31 /* sysutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sysutil.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/sysutil.h; sourceTree = SOURCE_ROOT; };
+		CA4E939A235E954200CC63F3 /* ustring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ustring.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/ustring.h; sourceTree = SOURCE_ROOT; };
+		D718417DF1C5F8DC985F38FE /* deepdata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = deepdata.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/deepdata.h; sourceTree = SOURCE_ROOT; };
+		D7F8D78048C0C0E2AF7C109B /* IexExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexExport.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexExport.h; sourceTree = SOURCE_ROOT; };
+		DA0E0A9FC05DF92BBB4DE9D5 /* IexForward.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexForward.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexForward.h; sourceTree = SOURCE_ROOT; };
+		DDB45926A6CF7C99124C9E2B /* IlmThreadMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThreadMutex.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		E32306AA89AB6F99150A526E /* ImathQuat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathQuat.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathQuat.h; sourceTree = SOURCE_ROOT; };
+		E3B6563EE192C76BDCB18041 /* optparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = optparser.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/optparser.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* ofxOIIOTestDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxOIIOTestDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		ECE5D2C7CA38CBD582461B48 /* ImathPlane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathPlane.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathPlane.h; sourceTree = SOURCE_ROOT; };
+		ED38207212E6FD74607EC758 /* export.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = export.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/export.h; sourceTree = SOURCE_ROOT; };
+		EFAC59A6FCC643F90C9E4F51 /* missing_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = missing_math.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/missing_math.h; sourceTree = SOURCE_ROOT; };
+		EFAF54EBA55F63D4FEBDD427 /* ImathHalfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathHalfLimits.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathHalfLimits.h; sourceTree = SOURCE_ROOT; };
+		F02AAD8D09B513F73DADF718 /* ImathMatrixAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathMatrixAlgo.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathMatrixAlgo.h; sourceTree = SOURCE_ROOT; };
+		F0853A0CE1D3B326AC0C9853 /* ImathBox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathBox.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathBox.h; sourceTree = SOURCE_ROOT; };
+		F4F29FA5C5B762A035DBE5F1 /* IlmThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IlmThread.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IlmThread.h; sourceTree = SOURCE_ROOT; };
+		F549CE433B14204C6B227A6C /* color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = color.h; path = ../../../addons/ofxOIIO/libs/include/OpenImageIO/color.h; sourceTree = SOURCE_ROOT; };
+		F893EDE693C45B8394268F91 /* IexMathFloatExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IexMathFloatExc.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/IexMathFloatExc.h; sourceTree = SOURCE_ROOT; };
+		FF3896F7F887328F7958A533 /* ImathFrustumTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImathFrustumTest.h; path = ../../../addons/ofxOIIO/libs/include/OpenEXR/ImathFrustumTest.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B95917000BE69E1901B2FAD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				48854A58C0AC556B4374E555 /* OpenEXR */,
+				B411CC003BF08F1BDDCBD077 /* OpenImageIO */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		48854A58C0AC556B4374E555 /* OpenEXR */ = {
+			isa = PBXGroup;
+			children = (
+				8481D20C5C9D4AA42A83A8B0 /* half.h */,
+				0420807C9513488A323C5537 /* halfExport.h */,
+				AB7A1E9ED3392235424CB739 /* halfFunction.h */,
+				5FFCC7A26A63A7E2B5F71004 /* halfLimits.h */,
+				9DB9729C27D17BB609459DC7 /* Iex.h */,
+				61B665541A1B86FECEF94E11 /* IexBaseExc.h */,
+				8E2C0A9499F47AEA08204208 /* IexErrnoExc.h */,
+				D7F8D78048C0C0E2AF7C109B /* IexExport.h */,
+				DA0E0A9FC05DF92BBB4DE9D5 /* IexForward.h */,
+				8998CD460B54EBF8F76FC541 /* IexMacros.h */,
+				061F6897FBE1DE34BBC76DFF /* IexMathExc.h */,
+				F893EDE693C45B8394268F91 /* IexMathFloatExc.h */,
+				118228CA13019142DD32A428 /* IexMathFpu.h */,
+				57A35F63A434F427E625093A /* IexMathIeeeExc.h */,
+				29A1308EE933A059E42A156D /* IexNamespace.h */,
+				6078E10830C189725D999F38 /* IexThrowErrnoExc.h */,
+				58F4F8388F176A1473D1515D /* IlmBaseConfig.h */,
+				F4F29FA5C5B762A035DBE5F1 /* IlmThread.h */,
+				349652711A4BE4AEE118F5C5 /* IlmThreadExport.h */,
+				66838FF03F5663992D08F233 /* IlmThreadForward.h */,
+				DDB45926A6CF7C99124C9E2B /* IlmThreadMutex.h */,
+				3C973E5DE4B636C40259C297 /* IlmThreadNamespace.h */,
+				5E125D2C25B66DD197BC2B22 /* IlmThreadPool.h */,
+				7A94BBC1822F68862761E2EF /* IlmThreadSemaphore.h */,
+				F0853A0CE1D3B326AC0C9853 /* ImathBox.h */,
+				2190FEEF339D05CC803D4A27 /* ImathBoxAlgo.h */,
+				4D03A70B5C0B4FC69E085BEC /* ImathColor.h */,
+				5E14AD9979E6033F72D1EA08 /* ImathColorAlgo.h */,
+				6EDC17201C2FA0ECF5F8980E /* ImathEuler.h */,
+				91118EF249452BB3724A91AB /* ImathExc.h */,
+				9DD06488A38D434205840876 /* ImathExport.h */,
+				A0355C6A752AF987B1690275 /* ImathForward.h */,
+				218BEDCF3AC9575D73433527 /* ImathFrame.h */,
+				31133F00622886A93EEA6042 /* ImathFrustum.h */,
+				FF3896F7F887328F7958A533 /* ImathFrustumTest.h */,
+				0662A29FCD3B104684733129 /* ImathFun.h */,
+				28D9FA12CF52AD2E5EA12F64 /* ImathGL.h */,
+				9050AF0A4A70231D9ABA75A2 /* ImathGLU.h */,
+				EFAF54EBA55F63D4FEBDD427 /* ImathHalfLimits.h */,
+				6C56606EC5E58D3849ACAA43 /* ImathInt64.h */,
+				4FC0D782631398732C191804 /* ImathInterval.h */,
+				2EE5D05B706330E66EED0221 /* ImathLimits.h */,
+				71EFE1BE0C99C224F02CCA74 /* ImathLine.h */,
+				9A2D068669D44B6D4ED8F71E /* ImathLineAlgo.h */,
+				248CE6E7E74D97B711B258F9 /* ImathMath.h */,
+				054877E1F860309522D5322B /* ImathMatrix.h */,
+				F02AAD8D09B513F73DADF718 /* ImathMatrixAlgo.h */,
+				4C6A30696E5579314150F540 /* ImathNamespace.h */,
+				ECE5D2C7CA38CBD582461B48 /* ImathPlane.h */,
+				2588208CB4E62A5A29500970 /* ImathPlatform.h */,
+				E32306AA89AB6F99150A526E /* ImathQuat.h */,
+				37C7F8D2FAB632A7733F2840 /* ImathRandom.h */,
+				036CE3A78661FEBC42A2D309 /* ImathRoots.h */,
+				B31C32F3D0EC300F164D95DD /* ImathShear.h */,
+				7B625F27BE2F5713C74EA7A7 /* ImathSphere.h */,
+				2D80D3B47FC31931BD25F638 /* ImathVec.h */,
+				BD045DAB60CB81EC442984AB /* ImathVecAlgo.h */,
+			);
+			name = OpenEXR;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		996464667F6FBAA9FEEE5B01 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2B95917000BE69E1901B2FAD /* include */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		B411CC003BF08F1BDDCBD077 /* OpenImageIO */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7CD62C19DEB84447B430D /* argparse.h */,
+				4F5AAA9F785B160CC1538D40 /* array_view.h */,
+				986C3C8543F9A8F944B874D8 /* atomic.h */,
+				F549CE433B14204C6B227A6C /* color.h */,
+				58772002920164E637A2D42F /* coordinate.h */,
+				8CF8D87D0A62DDEDC038980D /* dassert.h */,
+				D718417DF1C5F8DC985F38FE /* deepdata.h */,
+				0374559D3A4BC810DD73BDA3 /* errorhandler.h */,
+				ED38207212E6FD74607EC758 /* export.h */,
+				1171ECB0B91D504FD56D487E /* filesystem.h */,
+				6EB72541BD27AC52385E987B /* filter.h */,
+				0F3C935C9046059824C20150 /* fmath.h */,
+				72DC2FA8AF0D9D82D6F14D8F /* fstream_mingw.h */,
+				287AE6DE528A00BBB3A59B1C /* hash.h */,
+				9EC9D645BEA042F384C7BC7A /* image_view.h */,
+				6F67892FEA2886311C71E126 /* imagebuf.h */,
+				42F0954F9FD2F8AD0751E32E /* imagebufalgo.h */,
+				5BD9BD62513854F0953A5EA3 /* imagebufalgo_util.h */,
+				51EB04285DAD485AEDA9E922 /* imagecache.h */,
+				6BBBD9ADEA57D2590362998F /* imageio.h */,
+				EFAC59A6FCC643F90C9E4F51 /* missing_math.h */,
+				BC2EBBF7626F9C935E56B60F /* oiioversion.h */,
+				E3B6563EE192C76BDCB18041 /* optparser.h */,
+				824CD93619A2326BC62848B4 /* osdep.h */,
+				283D656A3C66975097B0B31B /* paramlist.h */,
+				0EE71B93576C5D130802F095 /* platform.h */,
+				746F14167E275A6768CC8493 /* plugin.h */,
+				8DB11BAB7EB5276BAD22B660 /* pugiconfig.hpp */,
+				6EA33CCE59D1CBEC81E37540 /* pugixml.cpp */,
+				6E39D673183867301FC0A391 /* pugixml.hpp */,
+				B66690C2420954E402174473 /* refcnt.h */,
+				604791547D356B1BBF017C84 /* SHA1.h */,
+				45C0295136F87D8F3CDAD81F /* simd.h */,
+				525E27B05424A0FF805CB6BD /* strided_ptr.h */,
+				4EA12BEB1EF76FA8D8CCC65E /* string_view.h */,
+				A789EBA540E1DAC354BFC760 /* strutil.h */,
+				C8A69B2B5D5F267171D80F31 /* sysutil.h */,
+				66C1F13944754FC2581FFE4C /* texture.h */,
+				81597199078F18DE53782783 /* thread.h */,
+				320C55B891DF086F0F53D867 /* timer.h */,
+				4C82326E6812D540D83C7470 /* tinyformat.h */,
+				4D77385CE3B4575BACF6300B /* typedesc.h */,
+				1EB71AA6B4BC51B01004C40E /* unittest.h */,
+				23493A288C69FEC16B899B54 /* unordered_map_concurrent.h */,
+				CA4E939A235E954200CC63F3 /* ustring.h */,
+				2591E575E01F95579F85184B /* varyingref.h */,
+				28B5BE0879447CF2C791C021 /* version.h */,
+			);
+			name = OpenImageIO;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				D946DA63BA315104DE1A2ECA /* ofxOIIO */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		D946DA63BA315104DE1A2ECA /* ofxOIIO */ = {
+			isa = PBXGroup;
+			children = (
+				996464667F6FBAA9FEEE5B01 /* libs */,
+			);
+			name = ofxOIIO;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* ofxOIIOTestDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* ofxOIIOTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxOIIOTest" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = ofxOIIOTest;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxOIIOTestDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxOIIOTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* ofxOIIOTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n\n# libOpenImageIO.dylib to package target directory so self contained\nrsync -aved ../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.11.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\nrsync -aved ../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\nrsync -aved ../../../addons/ofxOIIO/libs/lib/libOpenImageIO.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change libOpenImageIO.1.7.dylib @executable_path/../Frameworks/libOpenImageIO.1.7.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# libOpenImageIO_Util.1.7.11.dylib to package target directory so self contained\nrsync -aved ../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.11.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\nrsync -aved ../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\nrsync -aved ../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change libOpenImageIO_Util.1.7.dylib @executable_path/../Frameworks/libOpenImageIO_Util.1.7.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				0805EF6B67B8A83C09AB5B62 /* pugixml.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxOIIO/libs,
+					../../../addons/ofxOIIO/libs/include,
+					../../../addons/ofxOIIO/libs/include/OpenEXR,
+					../../../addons/ofxOIIO/libs/include/OpenImageIO,
+					../../../addons/ofxOIIO/libs/lib,
+					../../../addons/ofxOIIO/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.dylib,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxOIIO/libs,
+					../../../addons/ofxOIIO/libs/include,
+					../../../addons/ofxOIIO/libs/include/OpenEXR,
+					../../../addons/ofxOIIO/libs/include/OpenImageIO,
+					../../../addons/ofxOIIO/libs/lib,
+					../../../addons/ofxOIIO/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.dylib,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxOIIO/libs,
+					../../../addons/ofxOIIO/libs/include,
+					../../../addons/ofxOIIO/libs/include/OpenEXR,
+					../../../addons/ofxOIIO/libs/include/OpenImageIO,
+					../../../addons/ofxOIIO/libs/lib,
+					../../../addons/ofxOIIO/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxOIIO/libs,
+					../../../addons/ofxOIIO/libs/include,
+					../../../addons/ofxOIIO/libs/include/OpenEXR,
+					../../../addons/ofxOIIO/libs/include/OpenImageIO,
+					../../../addons/ofxOIIO/libs/lib,
+					../../../addons/ofxOIIO/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO.1.7.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.1.7.11.dylib,
+					../../../addons/ofxOIIO/libs/lib/libOpenImageIO_Util.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxOIIOTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxOIIOTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
